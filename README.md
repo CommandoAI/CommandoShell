@@ -17,7 +17,7 @@ aws s3api create-bucket --bucket example-bucket --region us-west-2 --create-buck
 ```
 
 ***
-##Currently available for the following, in your Bash:
+## Currently supports the following, in your Bash:
 1) Plain Bash
 2) AWS CLI
 3) gCloud CLI
