@@ -15,3 +15,14 @@ commando create a new AWS S3 bucket named "oregBucket" in the US West region wit
 ```
 aws s3api create-bucket --bucket example-bucket --region us-west-2 --create-bucket-configuration LocationConstraint=us-west-2 --versioning-configuration Status=Enabled
 ```
+
+***
+##Currently available for the following, in your Bash:
+1) Plain Bash
+2) AWS CLI
+3) gCloud CLI
+4) Azure CLI
+5) Docker CLI
+6) Kubernetes CLI
+
+_Custom CLIs and documentation coming soon_
