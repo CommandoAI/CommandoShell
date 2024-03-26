@@ -4,7 +4,12 @@
 
 **Start using like so:**
 
-```**commando** create a new S3 bucket named 'example-bucket' in the US West (Oregon) region with versioning enabled```
+```
+**commando** create a new AWS S3 bucket named 'example-bucket' in the US West (Oregon) region with versioning enabled
+```
+
+:arrow_down_small:
+
 ```
 > aws s3api create-bucket --bucket example-bucket --region us-west-2 --create-bucket-configuration LocationConstraint=us-west-2 --versioning-configuration Status=Enabled
 ```
