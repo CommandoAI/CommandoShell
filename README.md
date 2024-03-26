@@ -1,4 +1,4 @@
-**Run this in your Bash shell**
+**To install and setup, copy & run the following in your Bash**
 
 ```
 git clone https://github.com/CommandoAI/CommandoShell; cd CommandoShell; chmod +x init.sh; ./init.sh; exec "$SHELL"
