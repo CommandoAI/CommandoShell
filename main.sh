@@ -21,13 +21,11 @@ confirm_execution() {
 }
 
 
+json_payload="{\"question\": \"$sentence\"}"
 
 answer=$(curl -s --location 'https://hy655ghxvselxbedcujjfdxhgm0iwhua.lambda-url.eu-north-1.on.aws/' \
 --header 'Content-Type: application/json' \
---data "{
-  \"question\": \"$sentence\"
-}")
-
+--data "$json_payload")
 
 
 echo "$answer"
