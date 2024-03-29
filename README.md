@@ -22,7 +22,7 @@ aws s3api create-bucket --bucket example-bucket --region us-west-2 --create-buck
 ***
 ***
 ## Currently supports the following:
-1) Plain Bash
+1) Native Shell (BASH, Zsh, CMD)
 2) AWS CLI
 3) gCloud CLI
 4) Azure CLI
