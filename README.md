@@ -23,12 +23,11 @@ aws s3api create-bucket --bucket example-bucket --region us-west-2 --create-buck
 
 ***
 ***
-## Currently supports the following:
-1) Native Shell (BASH, Zsh, CMD)
+## Commando can help you with:
+1) Native Shell commands (BASH, Zsh, CMD)
 2) AWS CLI
 3) gCloud CLI
 4) Azure CLI
 5) Docker CLI
-6) Kubernetes CLI
 
 _Support for custom CLIs and documentations coming soon_
