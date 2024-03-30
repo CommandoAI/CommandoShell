@@ -11,7 +11,7 @@ git clone https://github.com/CommandoAI/CommandoShell; cd CommandoShell; chmod +
 **Example request (all requests MUST start with `commmando`)**
 
 ```
-commando create a new AWS S3 bucket named "oregBucket" in the US West region with versioning enabled
+commando create a new AWS S3 bucket in US West with versioning enabled
 ```
 
 
