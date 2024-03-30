@@ -1,4 +1,4 @@
-# Setup & installation 
+## Setup & installation 
 
 
 **To install and setup, copy & run the following in your Bash**
@@ -7,7 +7,8 @@
 git clone https://github.com/CommandoAI/CommandoShell; cd CommandoShell; chmod +x init.sh; ./init.sh; exec "$SHELL"
 ```
 ***
-**Example request (all requests MUST start with `commmando`)**
+## Example request
+**All requests MUST start with `commmando`**
 
 ![](https://github.com/CommandoAI/CommandoShell/blob/main/commandoshell.gif)
 
