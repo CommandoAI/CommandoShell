@@ -1,4 +1,4 @@
-#COMMANDO AI
+# COMMANDO AI
 ![](https://github.com/CommandoAI/CommandoShell/blob/main/commandoshell.gif)
 
 **To install and setup, copy & run the following in your Bash**
