@@ -1,4 +1,4 @@
-# Commando 
+# Setup & installation 
 
 ![](https://github.com/CommandoAI/CommandoShell/blob/main/commandoshell.gif)
 
@@ -8,7 +8,7 @@
 git clone https://github.com/CommandoAI/CommandoShell; cd CommandoShell; chmod +x init.sh; ./init.sh; exec "$SHELL"
 ```
 ***
-**Example request: (all requests MUST start with `commmando`)**
+**Example request (all requests MUST start with `commmando`)**
 
 ```
 commando create a new AWS S3 bucket named "oregBucket" in the US West region with versioning enabled
@@ -22,7 +22,7 @@ aws s3api create-bucket --bucket example-bucket --region us-west-2 --create-buck
 ```
 
 ***
-***
+
 ## Commando can help you with:
 1) Native Shell commands (BASH, Zsh, CMD)
 2) AWS CLI
