@@ -3,7 +3,7 @@
 os_type=$(uname)
 
 # Move main.sh to /usr/local/bin
-sudo mv main.sh /usr/local/bin
+sudo cp main.sh /usr/local/bin
 
 # Make main.sh executable
 sudo chmod +x /usr/local/bin/main.sh
