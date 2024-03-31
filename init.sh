@@ -1,6 +1,6 @@
 #!/bin/bash
 
-os_type = $(uname)
+os_type=$(uname)
 
 # Move main.sh to /usr/local/bin
 sudo mv main.sh /usr/local/bin
@@ -16,5 +16,7 @@ if [[ $os_type == "Linux" ]]; then
 elif [[ $os_type == "Darwin" ]]; then
   echo 'commando() { /usr/local/bin/main.sh "$@"; }' >> ~/.zshrc
   source ~/.zshrc
+
+fi
 
 echo "Setup complete."
